@@ -198,6 +198,57 @@
     height: 354px;
     margin: 50px auto;
 }
+
+.back_lg{
+    background: url("img/background.jpg") no-repeat;
+    width: 100%;
+    height:auto;
+}
+.back_on_lg .col-lg-6:nth-child(1) h1{
+    margin:146px 0  0  11px;
+    font-size: 43px;
+    width: auto;
+    height: 72px;
+    line-height: 72px;
+    color:#dadada ;
+}
+.back_on_lg .col-lg-6:nth-child(1) h1:hover{
+    color: #fff;
+}
+.back_on_lg .col-lg-6:nth-child(1) h2{
+    width: auto;
+    height: 46px;
+    font-size: 20px;
+    color: #dadada;
+    line-height: 46px;
+    margin: 0 0 31px 11px;
+}
+.back_on_lg .col-lg-6:nth-child(1) .back_lg_on1 {
+    width: 178px;
+    height: 47px;
+    background:#F1501A ;
+    border-radius: 30px;
+    margin-top:31px;
+    margin-left: 18px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 47px;
+    text-align: center;
+    text-decoration: none;
+}
+.col-lg-6:nth-child(1) a{
+    text-decoration: none;
+}
+.col-lg-6:nth-child(1) .back_lg_on1:hover{
+    background: none;
+    border: 1px solid #F1501A;
+    color: #F1501A;
+}
+.col-lg-6:nth-child(2) img{
+    width: 329px;
+    height: 354px;
+    margin: 54px 0 54px 0;
+}
 /*背景图结束*/
 
 
@@ -216,6 +267,9 @@
     .header_lg{
         display: none;
     }
+    .back_lg{
+        display: none;
+    }
 }
 /*小屏幕*/
 @media (min-width: 768px){
@@ -231,6 +285,9 @@
     .header_lg{
         display: none;
     }
+    .back_lg{
+        display: none;
+    }
 }
 /*中等屏幕*/
 @media (min-width: 992px){
@@ -241,7 +298,7 @@
         display: none;
     }
     .back_md{
-        display: block;
+        display: none;
     }
     .header_lg{
         display:block;
@@ -255,6 +312,9 @@
 
         padding-left: 50px;
     }
+     .back_lg{
+        display: block;
+    }
 }
 /*大屏幕*/
 @media (min-width: 1200px){
@@ -265,7 +325,7 @@
         display: none;
     }
     .back_md{
-        display: block;
+        display: none;
     }
     .header_lg{
         display:block;
@@ -278,5 +338,8 @@
     .nav_lg_right i{
 
         padding-left: 100px;
+    }
+     .back_lg{
+        display: block;
     }
 }
