@@ -204,6 +204,10 @@
     width: 100%;
     height:auto;
 }
+.back_on_lg .col-lg-6:nth-child(1){
+    transform: translateX(50px);
+    transition:all 3S 1s ;
+}
 .back_on_lg .col-lg-6:nth-child(1) h1{
     margin:146px 0  0  11px;
     font-size: 43px;
@@ -248,6 +252,8 @@
     width: 329px;
     height: 354px;
     margin: 54px 0 54px 0;
+    transform:rotate(360deg);
+    transition:all 3S 1s ;
 }
 /*背景图结束*/
 
@@ -413,8 +419,204 @@
     color: #EF4F19;
 }
 /*服务结束*/
-
-
+/*客户评价开始*/
+.evaluate{
+    background: url("img/zu (2).jpg");
+    width: 100%;
+    height: 697px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.evaluate .row{
+    width: 1349px;
+    height: 697px;
+    background: rgba(249,249,249,0.9);
+}
+.evaluate_top{
+    width: 1180px;
+    height: 77px;
+    padding: 0 5px;
+    border-bottom: 1px solid #eaeaea;
+}
+.evaluate_top div{
+    width: 1180px;
+    height: 45px;
+    font-size: 34px;
+    line-height: 45px;
+    font-family: 微软雅黑;
+    text-align: center;
+    color: #EF4F19;
+}
+.evaluate_md{
+    width: 1190px;
+    height: 287px;
+    margin-top: 45px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+.evaluate_md .evaluate_lg{
+    width: 1190px;
+    height: 287px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.evaluate_lg_top{
+    width: 307px;
+    height: 240px;
+}
+.evaluate_lg_top img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+.evaluate_lg_right{
+    width: 772px;
+    height: 287px;
+    padding: 0 5px;
+}
+.evaluate_lg_right_on{
+    width: 742px;
+    height: 287px;
+    padding: 10px 20px 30px 20px;
+    margin: 0 10px;
+}
+.m_padding{
+    width: 702px;
+    height: 101px;
+    font-size: 13px;
+    font-family: 微软雅黑;
+    color: #9C9C9C;
+}
+.x_padding{
+    width: 702px;
+    height: 146px;
+    display: flex;
+    justify-content: space-between;
+}
+.x_padding_on{
+    width: 420px;
+    height: 144px;
+    padding-top: 30px;
+}
+.x_padding img{
+    width: 112px;
+    height: 19px;
+    margin-top: 40px;
+}
+ .category_photo_left{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url("img/icon-slides.png");
+    background-position: -84px 0;
+}
+ .category_photo_left:hover{
+    background-position: 0 0;
+}
+.category_photo_right{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    right: 0;
+    /*top:195px;*/
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url("img/icon-slides.png");
+    background-position: -125px 0;
+}
+ .category_photo_right:hover{
+    background-position: -42px 0;
+}
+/*客户评价结束*/
+/*意见开始*/
+.opinion{
+    width: 100%;
+    height: 644px;
+    background: #f7f7f7;
+    border-top:1px solid #e0e0e0 ;
+}
+.opinion .row{
+    width: 1024px;
+    height: 557px;
+    margin: 20px auto;
+}
+.opinion .row .col-lg-6:nth-child(1){
+    width: 512px;
+    height: 514px;
+    padding: 69px 23px 1px 0;
+}
+.text li{
+    width: 489px;
+    height: 76px;
+}
+.phone{
+    width: 244px;
+    height: 76px;
+    padding: 0 10px 10px 0;
+    float: left;
+}
+.phone input{
+    background: none;
+    width: 234px;
+    height: 40px;
+    margin: 1px;
+    padding: 2px;
+    border: 1px solid #9C9C9C;
+    outline: none;
+}
+.mail input{
+    background: none;
+    width: 480px;
+    height: 40px;
+    margin: 1px;
+    padding: 2px;
+    border: 1px solid #9C9C9C;
+    outline: none;
+}
+.sub{
+    width: 489px;
+    height: 99px;
+    padding-bottom: 10px;
+}
+.sub textarea{
+    background: none;
+    width: 480px;
+    height: 63px;
+    margin: 1px;
+    border: 1px solid #9C9C9C;
+    outline: none;
+    font-size: 13px;
+}
+.opinion .row .col-lg-6:nth-child(2) img{
+    display: block;
+    width: 369px;
+    height: 417px;
+    margin: 30px auto;
+    transform:rotate(360deg);
+    transition:all 4S ;
+}
+/*意见结束*/
+/*底部开始*/
+.bottom_on{
+    width: 100%;
+    height: 349px;
+    background: #32383D;
+    padding: 50px 0 20px 0;
+}
+.bottom_on .row{
+    width: 100%;
+    height: 279px;
+    padding: 0 40px;
+}
+/*底部结束*/
 
 
 /*超小屏幕*/
