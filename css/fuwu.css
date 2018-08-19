@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/*导航栏开始*/
+.header_lg {
+    width: 100%;
+    height: 62px;
+    background:  #22282D;
+}
+.nav_lg .col-lg-3 img{
+    width: 139px;
+    height: 27px;
+    display: block;
+    margin: 20px 0 10px 20px;
+}
+.nav_lg .col-lg-6 ul a li{
+    float: left;
+    width: auto;
+    height: 62px;
+    margin: 0 31px 0 31px;
+    /*background: blue;*/
+    font-size: 13px;
+    line-height: 62px;
+    text-align: center;
+    color: #fff;
+}
+.nav_lg .col-lg-6  ul a:nth-child(2) li{
+    border-bottom: 2px solid #F1501A;
+    color:#F1501A ;
+}
+.nav_lg .col-lg-6  ul a:hover li{
+    border-bottom: 2px solid #F1501A;
+    color:#F1501A ;
+}
+.nav_lg_right i{
+    color: #fff;
+    font-size: 30px;
+    line-height: 62px;
+    padding-left: 100px;
+}
+.nav_lg_right span{
+    color: #fff;
+    font-size: 20px;
+    line-height: 32px;
+}
+/*导航栏结束*/
+/*核心优势开始*/
+.superior{
+    background: url("../img/background.png");
+    width: 100%;
+    height: 212px;
+    background-size: 100%;
+   padding:  0;
+}
+.superior .row{
+    width: 100%;
+    height: 212px;
+    background-color: rgba(0,0,0,0.1);
+    margin:  0;
+}
+.superior_on{
+    width: 1259px;
+    height: 192px;
+    margin: 10px auto;
+    padding: 46px 0 15px 0;
+}
+.superior_on_top{
+    width: 1259px;
+    height: 46px;
+    margin: 20px 0;
+    text-align: center;
+}
+.superior_on_bottom{
+    width: 1259px;
+    height: 42px;
+    padding-top: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-family: 微软雅黑;
+}
+/*核心优势结束*/
+/*功能开始*/
+.function{
+    width: 100%;
+    height: 753px;
+    background: #F7F7F7;
+}
+.function_top{
+    width: 100%;
+    height: 389px;
+    padding: 100px 0 51px 0;
+}
+.container{
+    width: 1024px;
+    height: 238px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+}
+.container_left{
+    width: 512px;
+    height: 233px;
+    padding-right: 60px;
+    text-align: center;
+}
+.container_right{
+    width: 512px;
+    height: 233px;
+    padding-right: 60px;
+    text-align: center;
+}
+.container_left_on{
+    width: 452px;
+    height: 118px;
+}
+.function_bottom{
+    width: 100%;
+    height: 360px;
+}
+/*功能结束*/
+/*服务开始*/
+.service{
+    background: #fff;
+    width: 100%;
+    height: 684px;
+    border-top:1px solid #E8E8E8;
+    border-bottom:1px solid #E8E8E8;
+}
+.service .row{
+    width: 1190px;
+    height: 662px;
+    padding-top: 61px;
+    margin: 15px auto;
+}
+.service .row  .col-lg-6{
+    height: 46px;
+}
+.service .row  .col-lg-6 button{
+    width:150px;
+    border-style: solid;
+    font-family:微软雅黑;
+    font-size:15px;
+    background-color:#ef4f19;
+    color:#ffffff;
+    border:1px solid #ef4f19;
+    border-radius: 25px 25px 25px 25px ;
+    padding:12px 20px 12px 20px;
+    margin-right: 30px;
+    outline: none;     //去掉button的外边框
+}
+.service .row  .col-lg-6 button:hover{
+    background-color:#A8A8A8;
+    border:1px solid #A8A8A8;
+}
+.row  .col-lg-12{
+    width: 1190px;
+    height: 540px;
+    /*background: red;*/
+    margin-top: 35px;
+    padding: 10px;
+}
+.service_on{
+    width: 477px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+.service_in{
+    width: 477px;
+    height: 111px;
+    padding-top: 25px;
+    padding-bottom: 11px;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: #808080;
+    line-height: 25px;
+}
+.service_input{
+    width: 477px;
+    height: 35px;
+    padding-top: 4px;
+}
+.service_bottom{
+    width: 168px;
+    height: 47px;
+    background: #EF4F19;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 47px;
+    font-family: 微软雅黑;
+    border: 1px solid #EF4F19;
+}
+.service_bottom:hover{
+    background: #fff;
+    color: #EF4F19;
+}
+/*服务结束*/
+/*底部开始*/
+.bottom_on{
+    width: 100%;
+    height: 349px;
+    background: #32383D;
+    padding: 50px 0 20px 0;
+}
+.bottom_on .row{
+    width: 100%;
+    height: 279px;
+    padding: 0 40px;
+}
+/*底部结束*/
